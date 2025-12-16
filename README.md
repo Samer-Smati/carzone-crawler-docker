@@ -370,8 +370,6 @@ DATABIZ_EXERCICE/
 ├── .env.example                # Template de configuration
 │
 ├── README.md                   # Ce fichier
-├── ARCHITECTURE.md             # Documentation technique
-└── DEPLOYMENT.md               # Guide de déploiement
 ```
 
 ## 🔧 Développement
