@@ -1,0 +1,57 @@
+# ============================================================================
+# .dockerignore - Fichiers exclus du contexte Docker
+# ============================================================================
+# Ce fichier spécifie les fichiers et répertoires qui ne doivent pas être
+# copiés dans le contexte Docker lors du build, réduisant ainsi la taille
+# du contexte et améliorant les performances du build.
+# ============================================================================
+
+# Dépendances Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de build et compilation
+dist/
+build/
+*.tsbuildinfo
+
+# Répertoire de sortie (sera monté comme volume)
+output/
+
+# Fichiers de contrôle de version
+.git/
+.gitignore
+.gitattributes
+
+# Documentation et fichiers de configuration locaux
+README.md
+*.md
+.env
+.env.local
+.env.*.local
+
+# Fichiers de l'éditeur et IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Fichiers de test
+**/*.test.ts
+**/*.spec.ts
+coverage/
+.nyc_output/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Fichiers système
+Thumbs.db
+desktop.ini

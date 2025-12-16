@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    // Version cible de JavaScript
+    "target": "ES2020",
+    
+    // Système de modules
+    "module": "commonjs",
+    
+    // Bibliothèques TypeScript disponibles
+    "lib": ["ES2020"],
+    
+    // Répertoire de sortie pour les fichiers compilés
+    "outDir": "./dist",
+    
+    // Répertoire racine des fichiers sources
+    "rootDir": "./src",
+    
+    // Options strictes pour une meilleure sécurité de type
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    
+    // Interopérabilité avec les modules ES6
+    "esModuleInterop": true,
+    
+    // Ignorer les erreurs de type dans les fichiers de déclaration
+    "skipLibCheck": true,
+    
+    // Forcer la cohérence de la casse dans les noms de fichiers
+    "forceConsistentCasingInFileNames": true,
+    
+    // Permettre l'import de fichiers JSON
+    "resolveJsonModule": true,
+    
+    // Stratégie de résolution des modules
+    "moduleResolution": "node",
+    
+    // Générer des fichiers de déclaration (.d.ts)
+    "declaration": false,
+    
+    // Générer des source maps pour le débogage
+    "sourceMap": false,
+    
+    // Supprimer les commentaires dans les fichiers de sortie
+    "removeComments": false,
+    
+    // Ne pas échouer en cas d'erreurs dans les fichiers de déclaration
+    "noEmitOnError": false
+  },
+  
+  // Fichiers à inclure dans la compilation
+  "include": ["src/**/*"],
+  
+  // Fichiers/répertoires à exclure de la compilation
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
+}

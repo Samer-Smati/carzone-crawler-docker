@@ -1,0 +1,38 @@
+{
+  "name": "carzone-crawler",
+  "version": "1.0.0",
+  "description": "Crawler professionnel TypeScript/Node.js pour extraire et sauvegarder les pages liste du site carzone.ie avec support proxy dynamique",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist output"
+  },
+  "keywords": [
+    "crawler",
+    "scraper",
+    "web-scraping",
+    "carzone",
+    "typescript",
+    "docker",
+    "proxy"
+  ],
+  "author": "Databiz Exercise",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "axios-retry": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
