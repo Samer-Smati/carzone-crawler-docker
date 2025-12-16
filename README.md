@@ -467,19 +467,13 @@ La classe `UrlQueue` gère:
 - ⚠️ **Utilisez des délais appropriés** pour ne pas surcharger le serveur
 - ⚠️ **Ce crawler est à des fins éducatives/d'exercice uniquement**
 
-## 📄 Documentation supplémentaire
-
-- [ARCHITECTURE.md](ARCHITECTURE.md) - Documentation technique détaillée
-- [DEPLOYMENT.md](DEPLOYMENT.md) - Guide de déploiement avancé
-- [CHANGELOG.md](CHANGELOG.md) - Historique des versions
-
 ## 📄 Licence
 
 ISC License
 
 ## 👤 Auteur
 
-**Databiz Exercise**
+**Samer Smati**
 
 ---
 
